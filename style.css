@@ -1,0 +1,26 @@
+body {
+background-color: black;
+color: white;
+margin: 0;
+height: 100vh;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav ul li {
+    padding: 15px 20px;
+    cursor: pointer;
+}
+nav ul li:hover {
+    background-color: #555;
+}
