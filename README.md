@@ -1,2 +1,3 @@
 # Netflix clone
- just an html+css netflix page for practice
+
+fun little project just to practice some basic html/css
