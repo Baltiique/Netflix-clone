@@ -3,6 +3,8 @@ background-color: black;
 color: white;
 margin: 0;
 height: 100vh;
+margin: 0;
+/* overflow: hidden; */
 }
 
 .navbar {
@@ -86,7 +88,7 @@ border-radius: 12px;
 margin-top: -5px;
 background-color: rgba(255, 255, 255, 0.3);
 width: 100%;
-height: 6px;
+height: 4px;
 border-radius: 3px;
 overflow: hidden;
 }
@@ -112,16 +114,14 @@ margin-left: 6px;
     height: 350px;
 width: 250px;
 cursor: pointer;
-border: white 2px solid;
-border-radius: 12px; 
-margin-left: 200px;
+margin-left: 200px; 
 
 }
 
 .content-row {
 display: flex;
 align-items: flex-start;
-gap: 16px;
+gap: 5px;
 
 }
 
@@ -129,5 +129,35 @@ gap: 16px;
     width: 420px;
 display: flex;
 flex-direction: column;
-gap: 16px;
+gap: 3px;
 }
+
+
+.small-card-image-two {
+    height: 350px;
+width: 250px;
+cursor: pointer;
+/* border: white 2px solid; */
+ border-radius: 12px;
+margin-left: 20px;
+
+}
+
+.small-card-image-three {
+    height: 350px;
+width: 250px;
+cursor: pointer;
+margin-left: 20px;
+}
+
+.Liked {
+  font-size: 25px;
+    color: gray;
+}
+
+.liked-row {
+  display: flex;
+  gap: 16px;
+  padding-bottom: 10px;
+}
+
